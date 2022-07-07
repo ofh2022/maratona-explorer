@@ -1,0 +1,118 @@
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+
+}
+
+html{
+/*variáveis tema natural*/
+--bg-color:#EDF2FF;
+--text-color:#00082F;
+--primary-color:#4263eb;
+--primary-color-dark:#364fc7;
+
+}
+body{
+  background: var(--bg-color);
+  color: var(--text-color);
+  font-family: "roboto";
+}
+
+body.dark-blue{
+  /*tema azul escuro*/
+--bg-color:#00082f;
+--text-color:#ffff;
+
+}
+
+body.pink{
+  /*tema rosa*/
+
+--bg-color:#fff0f6;
+--text-color:#1f000b;
+--primary-color:#d6336c;
+--primary-color-dark:#a61e4d;
+
+}
+
+a{
+  text-decoration: none;
+}
+
+.container {
+text-align: center;
+width: 300px;
+margin: 60px auto;
+}
+
+img {
+  width: 100%;
+
+}
+
+img.avatar{
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  padding: 3.7px;
+  border: var(--primary-color) solid 4px;
+}
+
+h1{
+  margin-top: 24px;
+  margin-bottom: 8px;
+  font-size: 32px;
+
+
+}
+
+.username{
+  font-family: "robot mono";
+  opacity: 0.8;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+ul{
+list-style: none;
+margin: 48px 0;
+
+}
+
+
+ul li a{
+height: 53px;
+display: flex;
+align-items: center;
+justify-content: center; 
+background: var(--primary-color);
+color: white;
+text-transform: uppercase;
+font-size: 14px;
+margin-bottom: 16px;
+border-radius: 6px;
+transition: background 400ms;
+
+}
+
+ul li a:hover {
+  background: var(--primary-color-dark); 
+  
+}
+
+footer:hover{
+  opacity: 1;
+}
+footer{
+  font-weight: 500;
+  font-size: 12px;
+  opacity: 0.6;
+  transition: 400ms;
+
+}
+
+footer a {
+
+
+}
